@@ -60,7 +60,7 @@ console.log('returnedNumbersの内容は[10, 500, 234, 221]であるべき：' +
  const sortNumbers = (_numbers) => {
    const copyNumbers =  _numbers.slice();
    copyNumbers.sort((a, b)  => {
-     return a- b;
+     return a - b;
    });
    return copyNumbers;
  };
